@@ -9,6 +9,7 @@ using ControleDeEstoqueDDD.Web.Models;
 
 namespace ControleDeEstoqueDDD.Web.Controllers
 {
+    [Area("Cadastro")]
     public class FornecedorController : Controller
     {
         private readonly ILogger<FornecedorController> _logger;

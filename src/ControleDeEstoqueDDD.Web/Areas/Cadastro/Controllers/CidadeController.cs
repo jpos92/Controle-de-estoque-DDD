@@ -9,11 +9,12 @@ using ControleDeEstoqueDDD.Web.Models;
 
 namespace ControleDeEstoqueDDD.Web.Controllers
 {
-    public class MarcaProdutoController : Controller
+    [Area("Cadastro")]
+    public class CidadeController : Controller
     {
-        private readonly ILogger<MarcaProdutoController> _logger;
+        private readonly ILogger<CidadeController> _logger;
 
-        public MarcaProdutoController(ILogger<MarcaProdutoController> logger)
+        public CidadeController(ILogger<CidadeController> logger)
         {
             _logger = logger;
         }
